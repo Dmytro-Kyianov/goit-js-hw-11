@@ -5,34 +5,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Homework 11</title>
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <form class="search-form" id="search-form">
-        <input
-              type="text"
-              name="searchQuery"
-              autocomplete="off"
-              placeholder="Search images..."
-            />
-        <button type="submit">Search</button>
-      </form>
-    </div>
-  </header>
-  
+
+  <form class="search-form" id="search-form">
+    <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+    <button type="submit">Search</button>
+  </form>
+
   <div class="gallery">
     <!-- Картки зображень -->
   </div>
-  
-  <div class="js-guard"></div>
-  <!-- <p class="end is-hidden">
-    <strong>We're sorry, but you've reached the end of search results.</strong>
-  </p>
-  
-  <button type="button" class="load-more is-hidden">Load more</button> -->
-  <script src="index.js" type="module"></script>
+  <div class="guard"></div>
+  <div class="secondGuard"></div>
+ <script src="index.js" type="module"></script>
 </body>
 
 </html>
